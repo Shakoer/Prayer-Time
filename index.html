@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Prayer Times</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ramadan Prayer Times</h1>
+      <p id="hijri-date">Loading Hijri Date...</p>
+      <button id="show-location">Change Location</button>
+      <div id="location-form">
+        <button id="auto-detect">Auto-Detect Location</button>
+        <p id="location-status">Fetching location...</p>
+        <div class="manual-entry">
+          <label>Latitude: <input type="text" id="latitude" placeholder="Enter latitude">
+          </label>
+          <label>Longitude: <input type="text" id="longitude" placeholder="Enter longitude">
+          </label>
+          <button id="save-location">Save Location</button>
+        </div>
+      </div>
+      <div id="prayer-times" class="inContainer">
+        <h2>Today's Prayer Times</h2>
+        <ul id="daily-prayers"></ul>
+      </div>
+      <div id="countdown" class="inContainer">
+        <h2>Countdown to Maghrib</h2>
+        <p id="countdown-timer">--:--:--</p>
+      </div>
+      <blockquote id="quran-verse" class="inContainer">
+          <h2>Quran Verse of the Day</h2>
+          <p id="verse-text">Loading...</p>
+          <p id="verse-reference"></p>
+      </blockquote>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

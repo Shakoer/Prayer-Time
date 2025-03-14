@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+  background-color: #242331;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: "Noto Sans", Sans-Serif;
+  font-weight: 400;
+}
+
+.container {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 450px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  background: #4FB286;
+  color: #222;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #3ead7c;
+}
+
+.manual-entry {
+  margin-top: 15px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#location-status {
+  font-style: italic;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
+
+#prayer-times {
+  margin-top: 15px;9
+}
+
+ul {
+  list-style: none;
+  table-layout: center;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 3px;
+  color: #222;
+}
+
+#countdown {
+  text-align: center;
+  color: #222;
+}
+
+#quran-verse {
+  text-align: center;
+}
+
+#verse-text {
+  border: solid 1px #242331;
+  color: #222;
+  font-weight: 350;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3ead7c;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#verse-reference {
+  color: #333;
+  font-weight: 250;
+}
+
+.inContainer {
+  width: 90%;
+  background-color: #4FB286;
+  color: #FFFFFF;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #242331;
+  text-decoration: underline;
+}
